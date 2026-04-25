@@ -6,5 +6,9 @@ def area_triangulo(base,altura):
     area = (base * altura) / 2
     return area
 
-resultado = area_triangulo(base,altura)
-print(f"Area triangulo: {resultado}")
+if (base>0 and altura>0):
+    resultado = area_triangulo(base,altura)
+    #print(f"Area triangulo: {resultado}")
+    print("Area triangulo es:", resultado)
+else:
+    print("Base y altura deben ser números positivos.")
