@@ -7,7 +7,7 @@ def area_circulo(radio):
     return area
 
 #SOLICITO AL USUARIO VALOR
-radio=float(input("Ingrese radio:"))
+radio=float(input("Ingrese radio del circulo:"))
 
 #LLAMO LA FUNCIO Y GENERO RESULTADO
 resultado = area_circulo(radio)
